@@ -1,0 +1,14 @@
+# Site settings
+title: Chicago Mathematics Loop
+email: chicago.math.loop@haiq.us
+description: > # this means to ignore newlinesp until "baseurl:"
+  We are amateurs and professionals who enjoy mathematical problem solving and would like to learn more.
+  Our discussions will touch upon algebra, analysis, single and multi-variate calculus, category theory, geometry, probability, statistics, topology, and more!
+  This is a fun, relaxed, and safe environment to learn and to teach.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://chicagomathloop.github.io" # the base hostname & protocol for your site
+twitter_user: chicagomathloop
+github_username:  chicagomathloop
+
+# Build settings
+markdown: kramdown
