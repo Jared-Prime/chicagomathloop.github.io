@@ -26,7 +26,7 @@ Recall, also, that `T` is simply a collection of subsets of `R`.
 
 ### Proof that 1 holds true for `(R,T)`
 
-Pick any real number `x`. Subtract `1` to `x` to get `a`. Add `1` to `x` to get `b`. Convince yourself that `x` lies somewhere 'between' `a` and `b`.
+Pick any real number `x`. Subtract `1` from `x` to get `a`. Add `1` to `x` to get `b`. Convince yourself that `x` lies somewhere 'between' `a` and `b`.
 
 ```
 x ∈ R
@@ -43,7 +43,7 @@ x ∈ (a, b) ⊆ R
 
 and so, by definition, `(a, b)` is open in `(R, T)`. Do this for all `x ∈ R` and we show that `R ∈ T`.
 
-You can say that for some `y ∉ R`, there precisely one interval `∅` where the `*` property holds; therefore `∅ ∈ R` as well.
+You can say that for some `y ∉ R`, there is precisely one interval `∅` where the `*` property holds; therefore `∅ ∈ R` as well.
 
 ### Proof that 2 holds true for `(R,T)`
 
@@ -67,7 +67,7 @@ holds true. This again is the `*` property, and so we've shown all unions of any
 
 ### Proof that 3 holds true for `(R,T)`
 
-At this point, we have a bit of freedom -- believe it or not, things are getting easier. Pick any pair of subsets `A` and `B` from `T`. Pick some `y` from the intersection of `A` and `B`. By definition of set intersection, `y ∈ A`. Using a similar trick as above in prooving the second axiom holds on `(R,T)`, we can show
+At this point, we have a bit of freedom -- believe it or not, things are getting easier. Pick any pair of subsets `A` and `B` from `T`. Pick some `y` from the intersection of `A` and `B`. By definition of set intersection, `y ∈ A`. Using a similar trick as above in proving the second axiom holds on `(R,T)`, we can show
 
 ```
 y ∈ (a,b) ⊆ A
@@ -89,7 +89,7 @@ The intersection -- which is, after all, *any* pair of subset from `T` -- has th
 
 ## extreme generality
 
-The extreme generality involved in this proof caught me off gaurd the first time. But if you think about it, we need an extremely general approach to making a claim about the topological structure of the real numbers -- `R` is uncountably large! That's why the proof is so careful to pick, with as little specificity as possible, "any" real number, or "any" set from a subcollection, or "any" pair of subsets to test whether or not it has the `*` property. If we are able to make this selection with as few restrictions as possible, then the property demonstrated on that seleciton "carries through" to any other selection we could have made -- which is to say any and all open sets.
+The extreme generality involved in this proof caught me off gaurd the first time. But if you think about it, we need an extremely general approach to making a claim about the topological structure of the real numbers -- `R` is uncountably large! That's why the proof is so careful to pick, with as little specificity as possible, "any" real number, or "any" set from a subcollection, or "any" pair of subsets to test whether or not it has the `*` property. If we are able to make this selection with as few restrictions as possible, then the property demonstrated on that selection "carries through" to any other selection we could have made -- which is to say any and all open sets.
 
 Topology is like that; its extreme generality allows you to make very careful determinations on the nature of the entire space at once.
 
@@ -109,7 +109,7 @@ Assume for the proof that `S` is a union of open intervals. We construct it with
 S = ⋃(a_i, b_i)
 ```
 
-Luckily, we've already prooven this above. This immediately gives us `S` as an open set.
+Luckily, we've already proven this above. This immediately gives us `S` as an open set.
 
 ### Demonstrate `S` is a union of open intervals
 
@@ -121,7 +121,7 @@ x ∈ (a,b) ⊆ S
 
 Be careful! The temptation here is to say, "use the `*` property and we're done". Yes, we have shown the `*` property in this case but only in this case! There has been a subtle shift in language that ( if you're really paying incredibly close attention ) should tip us off that we've *restricted* our selection of `x`. We've chosen "some" not "any" `x`, and thus we have to justify extending the `*` property generally across the set `S`.
 
-The two following step sill justify the extension for us.
+The two following step will justify the extension for us.
 
 #### Demonstrate all `x` is contained in some interval
 
