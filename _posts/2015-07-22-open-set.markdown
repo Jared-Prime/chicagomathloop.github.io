@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Open Set"
+date:   2015-07-22 08:55:00
+categories: topology
+---
+
+# Open Set
+
+## What is it?
+
+Some of the early introductory terminology in topology are confusing to beginners, so I will start by pointing out a key fact about study in the field: foundational concepts in topology simply redefine conventional notions.
+
+We see this from the very beginning of the subject. The *definition of a topological space* is:
+
+- given a set $X$ and a collection of subsets of $X$ called $\tau$:
+  1. $X$ and $\emptyset$ are included in the collection $\tau$
+  2. the result of any union of subsets from $\tau$ - including a union of *all* subsets or a union of *none* of the subsets - is included in the collection $\tau$
+  3. the result of any *finite* intersection of subsets from $\tau$ is included in $\tau$
+  
+We call a member $t$ of $\tau$ an "open" set. We call a complement of a member $t$ of $\tau$ with respect to $X$ - $X \setdiff t$ - a "closed" set. If, as can happen, a member $t$ of $\tau$ and its complement $s$ of $\tau$ is also a member of $\tau$, then we call $t$ and $s$ both "clopen."
+
+That's it. Surfs on!
+
+## What's it for?
+
+As an ameteur, I tend to accept these definitions as a kind of record keeping. It's simply vocabulary, and frankly useless on its own. Combined with other mathematical gadgetry, however, these definitions motivate deeply insightful proofs.
+
+> ...wherever we can carry a reasonable abstract notion of "open set," we can define continuous functions. The problem of what properties one should postulate as reasonable for our abstract opens sets is, of course, a difficult one and any solution must ultimately live or die on the merits of the theory it produces.
+*General Topology*, Stephen Willard
+
+Willard then says - in one of my favorite addmittances in any technical book - that the "reasonableness" of the definition of a topological space can then only be justified by the remainder of the textbook! Which is to say, by application of an abstract theory to further abstract entities like problems, proofs, theorems, and increasingly complex mathematical objects.
+
