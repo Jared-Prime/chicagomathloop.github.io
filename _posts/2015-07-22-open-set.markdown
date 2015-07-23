@@ -13,12 +13,12 @@ Some of the early introductory terminology in topology are confusing to beginner
 
 We see this from the very beginning of the subject. The *definition of a topological space* is:
 
-- given a set $X$ and a collection of subsets of $X$ called $\tau$:
-  1. $X$ and $\emptyset$ are included in the collection $\tau$
-  2. the result of any union of subsets from $\tau$ - including a union of *all* subsets or a union of *none* of the subsets - is included in the collection $\tau$
-  3. the result of any *finite* intersection of subsets from $\tau$ is included in $\tau$
+- given a set $X$ and a collection of subsets of $X$ called $\Tau$:
+  1. $X$ and $\emptyset$ are included in the collection $\Tau$
+  2. the result of any union of subsets from $\Tau$ - including a union of *all* subsets or a union of *none* of the subsets - is included in the collection $\Tau$
+  3. the result of any *finite* intersection of subsets from $\Tau$ is included in $\Tau$
   
-We call a member $t$ of $\tau$ an "open" set. We call a complement of a member $t$ of $\tau$ with respect to $X$ - $X \setminus t$ - a "closed" set. If, as can happen, a member $t$ of $\tau$ and its complement $s$ of $\tau$ is also a member of $\tau$, then we call $t$ and $s$ both "clopen."
+We call a member $t$ of $\tau$ an "open" set. We call a complement of a member $t$ of $Tau$ with respect to $X$ - $X \setminus t$ - a "closed" set. If, as can happen, a member $t$ of $\Tau$ and its complement $s$ of $\Tau$ is also a member of $\Tau$, then we call $t$ and $s$ both "clopen."
 
 That's it. Surfs on!
 
